@@ -1,6 +1,8 @@
 # webpack-template
 
-## module resolve
+A simple webpack template for web development.
+
+## Module Resolution
 
 - CSS
 - SCSS
@@ -12,4 +14,8 @@
 ## Optimization
 
 - CSS extraction & minification
-- 
+- Babel Cache
+- Source Map
+- Tree Shaking
+- Code Splitting
+- core-js
