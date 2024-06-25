@@ -83,8 +83,8 @@ module.exports = {
       template: './public/index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: 'css/[name]-[hash:10].css',
-      chunkFilename: 'css/[name]-[hash:10].chunk.css',
+      filename: 'css/[name]-[fullhash:10].css',
+      chunkFilename: 'css/[name]-[chunkhash:10].chunk.css',
     }),
   ],
   optimization: {

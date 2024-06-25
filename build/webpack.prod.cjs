@@ -6,9 +6,9 @@ const config = {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: 'js/[name]-[hash:10].js',
-    chunkFilename: 'js/[name]-[hash:10].chunk.js',
-    assetModuleFilename: 'assets/[name]-[hash:10][ext]',
+    filename: 'js/[name]-[fullhash:10].js',
+    chunkFilename: 'js/[name]-[chunkhash:10].chunk.js',
+    assetModuleFilename: 'assets/[name]-[fullhash:10][ext]',
     clean: true,
   },
   devtool: 'source-map',
